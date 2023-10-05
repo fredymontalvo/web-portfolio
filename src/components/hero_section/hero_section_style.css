@@ -1,0 +1,39 @@
+.hero-section {
+  font-family: "Courier Prime", monospace;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  position: relative;
+
+  padding: 50px;
+  color: #bf965f;
+  line-height: 1.5;
+
+  .head-img {
+    background-image: url("../../assets/imgs/head.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 900px;
+    position: absolute;
+    right: 20px;
+    top: -400px;
+  
+  }
+.my-name {
+color: #FAEF9D;
+  font-size: 40px;
+}
+  .my-prof {
+    font-size: 45px;
+    color: #FFAE6B;
+  }
+  .type-writer {
+ 
+    font-size: 50px;
+    color: #FE8AF0;
+  }
+}
